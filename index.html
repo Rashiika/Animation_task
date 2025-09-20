@@ -7,10 +7,44 @@
     <style>
         
     body {
-       margin: 0;
-      
-    }
+    margin: 0;
+    overflow: hidden;
+    background: black;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    color: #0f0;
+  }
+   
+  #glitchText {
+    font-size: 40px;
+    margin: 20px 0;
+    color: #0f0;
+  }
 
+  #controls {
+    margin-bottom: 20px;
+  }
+
+   button, input {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+   #textInput {
+    display: none; 
+  }
+  
+   #canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+   }
     
     </style>
 </head>
