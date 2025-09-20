@@ -21,11 +21,10 @@ glitchIntro(text);
 
 let mode = null;
 let particles = [];
-let drops = [];
+
 
 const fireworkBtn = document.getElementById("fireworkBtn");
-const textBtn = document.getElementById("textBtn");
-const textInput = document.getElementById("textInput");
+
 
 canvas.addEventListener("click", e => {
   if(mode === "firework"){
